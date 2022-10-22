@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <title>Laine`s webpage</title>
+</head>
+<body>
+    <!--Part 1 navigation bar-->
+
+    <div class="topnav" id="myTopnav">
+
+        <a href="#home" class="active"><img src="../Gutierrez_portfolio/img/logo2.png" width="25" height="25">PORTFOLIO</a>
+        <a href="#" class="reg" >HOME</a>
+        <a href="#" class="reg">ABOUT</a>
+        <a href="#" class="reg">RESUME</a>
+        <a href="#" class="reg">CONTACT</a>
+    </div>
+     <!--Part 2 baner-->
+     <div class="hero-image">
+         <div class="hero-text">
+            <h2 >LALAINE GUTIERREZ</h2>
+            <h2 >Bachelor of Science in Information Technology</h2>
+            <h2 >Major in Web and Mobile Application</h2>
+            <h2 >Future IT Professional</h2>
+
+         <div class="social-media">
+
+             <a href="https://www.facebook.com/lalaine.gutierrez.56/"><i class="fab fa-facebook"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a>   
+            </div>
+   </div>
+    </div>
+
+</body>
+</html>
