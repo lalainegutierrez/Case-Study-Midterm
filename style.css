@@ -1,0 +1,95 @@
+/* PART 1 NAV BAR STYLES */
+.topnav{ 
+    background-color: #990066; 
+    overflow: hidden;
+    }
+    .topnav a{
+    float: left;
+    display: block;
+    color: #d4d4d4;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    .topnav a.reg{
+    float: right;
+    color: white;
+    margin-top: 5px;
+    }
+    .topnav a.hero-img{
+        float: center;
+    color: white;
+    margin-top: 5px;
+    }
+    
+    .topnav a.reg:hover{
+    background-color: black;
+    color: #d4d4d4;
+    
+    }
+    
+    .topnav a.active{
+    color: white;
+    font-weight: bold;
+    font-size: calc(15px + 1vw);
+    
+    }
+    
+    .topnav .icon{
+    display: none;
+    }
+    
+    /* PART 2 BODY */
+    
+    body, html{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: antiquewhite;
+        background-size: cover;
+        font-family: "Open Sans",sans-serif;
+    }
+    h2{
+        font-size: 20px;
+        background-position: left;
+    }
+    
+    .hero-image{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('../Gutierrez_portfolio/img/back.png');
+    height: 85%;
+    background-position: left;
+    background-repeat: no repeat;
+    background-size: cover;
+    position: relative;
+  
+    }
+    
+   
+    
+    .hero-text{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat' ,Arial, Helvetica, Sans-sarif;
+    font-size: calc(20px, 1vw);
+    font-weight: 700%;
+    color: #d4d4d4;
+    text-shadow: 0 0 0.15em #fff;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(.007em);
+    animation: qshake 5s linear forwards;
+    animation-iteration-count: infinite;
+    }
+    
+ 
+    
+    .hero-text button:hover{
+    background-color: #d4d4d4;
+    color: white;
+    width: 100%;
+    }
